@@ -1,4 +1,12 @@
 # HookPlusPlus - Hooking made easy.
+![Lines of code](https://img.shields.io/tokei/lines/github/AestheticalZ/hookplusplus?label=Lines%20of%20Code&style=flat-square)
+![GitHub repo file count (custom path)](https://img.shields.io/github/directory-file-count/aestheticalz/hookplusplus/src?color=brightgreen&label=Library%20Files&style=flat-square)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/aestheticalz/hookplusplus?color=green&label=Code%20Size&style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/aestheticalz/hookplusplus?label=Issues&style=flat-square)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/aestheticalz/hookplusplus?label=Pull%20Requests&style=flat-square)
+![GitHub](https://img.shields.io/github/license/aestheticalz/hookplusplus?label=License&style=flat-square)
+![GitHub Repo stars](https://img.shields.io/github/stars/aestheticalz/hookplusplus?label=Stargazers&style=flat-square)
+
 HookPlusPlus is a lightweight 2-file C++ library for hooking in Windows-based systems! No more looking around Google for any way to hook under both x86_64 and x86, because HookPlusPlus does both.
 
 :warning: **Important**: Please read [SECURITY.md](SECURITY.md) before using.
