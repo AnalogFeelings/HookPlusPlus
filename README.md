@@ -23,7 +23,7 @@ Say you have a DLL you want to attach whenever you want to debug something. In t
 HookPlusPlus::Hook* MessageBoxHookW = NULL;
 HookPlusPlus::Hook* MessageBoxHookA = NULL;
 
-// REMEMBER! The impostor function's signature must match 1:1 the function your trying to hook!
+// REMEMBER! The impostor function's signature must match 1:1 the function you're trying to hook!
 DWORD WINAPI HookedMessageBowW(HWND hWnd, LPCWSTR lpText, LPCWSTR lpCaption, UINT uType)
 {
     // Unperform patch to be able to call the original function.
@@ -37,7 +37,7 @@ DWORD WINAPI HookedMessageBowW(HWND hWnd, LPCWSTR lpText, LPCWSTR lpCaption, UIN
     return returnCode;
 }
 
-// REMEMBER! The impostor function's signature must match 1:1 the function your trying to hook!
+// REMEMBER! The impostor function's signature must match 1:1 the function you're trying to hook!
 DWORD WINAPI HookedMessageBowA(HWND hWnd, LPCSTR lpText, LPCSTR lpCaption, UINT uType)
 {
     // Unperform patch to be able to call the original function.
