@@ -9,7 +9,8 @@
 
 HookPlusPlus is a lightweight 2-file C++ library for hooking in Windows-based systems! No more looking around Google for any way to hook under both x86_64 and x86, because HookPlusPlus does both.
 
-:warning: **Important**: Please read [SECURITY.md](SECURITY.md) before using.
+> [!IMPORTANT]  
+> Please read [SECURITY.md](SECURITY.md) before using.
 
 Usage is very simple, and below you can find some example code.
 
